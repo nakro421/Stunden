@@ -280,4 +280,8 @@ export default function Page() {
       </section>
     </main>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 8b1d3eb18998c222911eef7a0a45d83a1467ad61
