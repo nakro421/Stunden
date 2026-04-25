@@ -138,11 +138,31 @@ export default function Page() {
           height:16px; background:transparent; outline:none; color:#000;
         }
 
-        table { width:100%; border-collapse:collapse; table-layout:fixed; margin-top:12px; }
-        th, td { border:1px solid #2f80ed; font-size:10px; color:#000; }
-        th { height:28px; font-weight:800; text-align:center; }
-        td { height:26px; padding:0; }
-        input, select {
+        table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-top: 12px;
+  border: 1px solid #2f80ed;
+  box-shadow: inset -1px 0 0 #2f80ed;
+}
+
+th, td {
+  border: 1px solid #2f80ed;
+  font-size: 10px;
+  color: #000;
+}
+
+th {
+  height: 28px;
+  font-weight: 800;
+  text-align: center;
+}
+
+td {
+  height: 26px;
+  padding: 0;
+}
           width:100%; border:none; outline:none; font-size:10px; background:transparent; color:#000; min-width:0;
         }
         select { white-space:nowrap; }
@@ -279,9 +299,5 @@ export default function Page() {
         </table>
       </section>
     </main>
-  );
-<<<<<<< HEAD
+    );
 }
-=======
-}
->>>>>>> 8b1d3eb18998c222911eef7a0a45d83a1467ad61
